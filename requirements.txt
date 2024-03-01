@@ -1,0 +1,2 @@
+Markdown==3.5.2
+yagmail==0.15.293

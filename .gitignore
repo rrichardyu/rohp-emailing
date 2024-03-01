@@ -1,0 +1,10 @@
+*.json
+*.csv
+!test.csv
+*.md
+!README.md
+!test-guest.md
+!test-host.md
+*.pdf
+
+.DS_Store
