@@ -5,7 +5,7 @@
 1. Add any attachments you'd like to send to `/attachments`
 2. Add host-guest matching data to `/matchings`
 3. Modify email templates
-4. Add OAuth2 token (`credentials.json`) to project. You'll download this from [Google Cloud Platform](console.cloud.google.com/apis/credentials) (switch to the Berkeley ROHP Google account).
+4. Add OAuth2 token (`credentials.json`) to the project. You'll download this from [Google Cloud Platform](console.cloud.google.com/apis/credentials) (switch to the Berkeley ROHP Google account). Click "Create Credentials" > "OAuth Client ID" > "Desktop app" > "Create". Then, download the JSON. 
 
 Run the emailing script: `python3 main.py templates/{HOST-EMAIL-TEMPLATE} templates/{GUEST-EMAIL-TEMPLATE} matchings/{HOST-GUEST-MATCHING-DATA} attachments/{ATTACHMENT} ...`. You can add as many attachments as you'd like to send.
 
